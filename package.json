@@ -1,0 +1,33 @@
+{
+    "name": "sysalert",
+    "description": "system watcher",
+    "version": "0.0.1",
+    "author": "Craig Condon",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/spiceapps/sysalert.git"
+    },
+    "directories": {
+        "lib": "./lib"
+    },
+    "dependencies": {
+        "bean.http": "*",
+        "beanpole": "*",
+		"Structr": "*",
+		"vine": "*",
+		"ini":"*"
+    },
+    "beans": {
+        "http.gateway": {
+            "http": {
+                "port": 8080
+            }                 
+        },
+        "http.server": true,
+        "http.middleware": true,
+		"sysalert.config": {
+			"source": "/etc/sysalert.conf"
+		}
+    },
+    "mainScript": "./lib/index.js"
+}
