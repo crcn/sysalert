@@ -34,12 +34,12 @@ In your sysalert.cont file
 email=me@email.com another@email.com
 iphone=999-999-9999
 
-[keys:sysalert.notify.part.urbanairship]
+[keys:sysalert_notify_part_urbanairship]
 key=XXXXXXXXXX
 secret=XXXXXXXXXX
 masterSecret=XXXXXXXXXX  
 
-[keys:sysalert.notify.part.mailgun]
+[keys:sysalert_notify_part_mailgun]
 key=XXXXXXXXXX           
 
 [include]
