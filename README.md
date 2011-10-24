@@ -31,7 +31,8 @@ In your sysalert.cont file
 
 #### /alert/:source/:endpoint
 
-Triggers a notification on the server
+Triggers a notification on the server   
+
 - `source` - the source of the notification. E.g: alertbird
 - `endpoint` - the endpoint / group that handles the given notification. E.g: myapp-errors, myapp-warnings 
 
