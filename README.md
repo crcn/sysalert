@@ -19,13 +19,7 @@ An app which alerts you when your system is down.
 ### Installation             
 
 
-TODO
-
-
-### Configuration
-
-In your sysalert.cont file   
-
+TODO     
 
 ### API Methods
 
@@ -34,7 +28,21 @@ In your sysalert.cont file
 Triggers a notification on the server   
 
 - `source` - the source of the notification. E.g: alertbird
-- `endpoint` - the endpoint / group that handles the given notification. E.g: myapp-errors, myapp-warnings 
+- `endpoint` - the endpoint / group that handles the given notification. E.g: myapp-errors, myapp-warnings    
+
+##### Example:
+
+ http://teamdigest-sysalert.heroku.com/alert/alertbird/server-down?description=...
+
+
+
+
+
+
+### Configuration
+
+In your sysalert.cont file   
+
 
 
 
