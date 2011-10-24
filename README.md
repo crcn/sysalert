@@ -32,7 +32,7 @@ Triggers a notification on the server
 
 ##### Example:
 
- http://teamdigest-sysalert.heroku.com/alert/alertbird/server-down?description=...
+**http://teamdigest-sysalert.heroku.com/alert/alertbird/server-down?description=...**
 
 
 
