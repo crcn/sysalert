@@ -24,12 +24,25 @@ TODO
 
 ### Configuration
 
-In your sysalert.cont file
+In your sysalert.cont file   
+
+
+### API Methods
+
+#### /alert/:source/:endpoint
+
+Triggers a notification on the server
+- `source` - the source of the notification. E.g: alertbird
+- `endpoint` - the endpoint / group that handles the given notification. E.g: myapp-errors, myapp-warnings 
+
+
 
 
 ````ini     
 
-# endpoint for notifications
+# endpoint for notifications  
+                  
+
 [endpoint:X]
 email=me@email.com another@email.com
 iphone=999-999-9999
