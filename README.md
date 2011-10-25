@@ -7,7 +7,7 @@ An app which alerts you when your system is down.
 
 - mobile notifications via [twilio](https://www.twilio.com/)     
 - email notifications via [mail gun](http://mailgun.net)
-- endpoint for [Alert Birds](https://alertbirds.appspot.com/)      
+- support for [Alert Birds](https://alertbirds.appspot.com/)      
 - modular via [beanpole](https://github.com/spiceapps/beanpole)                 
 
 ### To-Do
