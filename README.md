@@ -11,9 +11,9 @@ An app which alerts you when your system is down.
 - modular via [beanpole](https://github.com/spiceapps/beanpole)                 
 
 ### To-Do
-
-- Twilio   
-- scan directory for configs                                                   
+                              
+- scan directory for configs  
+- accept ini, or JSON configs                                                  
                           
 
 
@@ -64,7 +64,8 @@ hostname=XXXX.localtunnel.com
 
 [keys:sysalert_notify_part_mailgun]
 key=XXXXXXXXXX           
-
+         
+#to-do
 [include]
 directories=/etc/syslog/*.conf
    
