@@ -5,10 +5,10 @@ An app which alerts you when your system is down.
 
 ### Features
 
-- mobile notifications via [twilio](https://www.twilio.com/)     
+- SMS / voice notifications via [twilio](https://www.twilio.com/)     
 - email notifications via [mail gun](http://mailgun.net)
 - support for [Alert Birds](https://alertbirds.appspot.com/)      
-- modular via [beanpole](https://github.com/spiceapps/beanpole)                 
+- add your own plugins via [beanpole](https://github.com/spiceapps/beanpole)                 
 
 ### To-Do
                               
