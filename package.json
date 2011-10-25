@@ -17,7 +17,9 @@
 		"vine": "*",
 		"ini":"*",
 		"twilio":"*",
-        "express":"*"
+        "express":"*",
+		"mailgun": "*",
+		"colors": "*"
     },
     "beans": {
         "http.gateway": {

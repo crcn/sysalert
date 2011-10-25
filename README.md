@@ -12,6 +12,7 @@ An app which alerts you when your system is down.
 
 ### To-Do
                               
+
 - scan directory for configs  
 - accept ini, or JSON configs                                                  
                           
