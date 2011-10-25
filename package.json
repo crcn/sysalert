@@ -15,7 +15,9 @@
         "beanpole": "*",
 		"Structr": "*",
 		"vine": "*",
-		"ini":"*"
+		"ini":"*",
+		"twilio":"*",
+        "express":"*"
     },
     "beans": {
         "http.gateway": {
