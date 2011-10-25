@@ -1,7 +1,7 @@
 {
-    "name": "sysalert-photomotr",
+    "name": "sysalert",
     "description": "system watcher",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Craig Condon",
     "repository": {
         "type": "git",
@@ -24,10 +24,7 @@
     "beans": {
         "http.gateway": true,
         "http.server": true,
-        "http.middleware": true,
-		"sysalert.config": { 
-			"source": "./sysalert.conf"
-		}
+        "http.middleware": true
     },
-    "mainScript": "./lib/server.js"
+    "main": "./lib/index.js"
 }
