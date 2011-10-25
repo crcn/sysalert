@@ -1,5 +1,5 @@
 {
-    "name": "sysalert",
+    "name": "sysalert-photomotr",
     "description": "system watcher",
     "version": "0.0.1",
     "author": "Craig Condon",
@@ -16,22 +16,18 @@
 		"Structr": "*",
 		"vine": "*",
 		"ini":"*",
-		"twilio":"*",
+		"twilio2":"*",
         "express":"*",
 		"mailgun": "*",
 		"colors": "*"
     },
     "beans": {
-        "http.gateway": {
-            "http": {
-                "port": 8080
-            }                 
-        },
+        "http.gateway": true,
         "http.server": true,
         "http.middleware": true,
-		"sysalert.config": {
-			"source": "/etc/sysalert.conf"
+		"sysalert.config": { 
+			"source": "./sysalert.conf"
 		}
     },
-    "mainScript": "./lib/index.js"
+    "mainScript": "./lib/server.js"
 }
