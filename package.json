@@ -11,6 +11,15 @@
     "lib": "./lib"
   },
   "dependencies": {
+    "async": "0.1.x",
+    "sprintf": "0.1.x",
+    "underscore": "1.2.x",
+    "mailgun": "0.4.x",
+    "structr": "0.2.x",
+    "winston": "0.5.x",
+    "vine": "0.0.x",
+    "beanpoll-http": "0.0.x",
+    "beanie": "0.0.x"
   },
   "main": "./lib/index.js"
 }
