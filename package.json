@@ -11,20 +11,6 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "bean.http": "*",
-    "beanpole": "*",
-    "Structr": "*",
-    "vine": "*",
-    "ini": "*",
-    "twilio2": "*",
-    "express": "*",
-    "mailgun": "*",
-    "colors": "*"
-  },
-  "beans": {
-    "http.gateway": true,
-    "http.server": true,
-    "http.middleware": true
   },
   "main": "./lib/index.js"
 }
